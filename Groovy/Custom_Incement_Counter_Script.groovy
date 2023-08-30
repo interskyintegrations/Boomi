@@ -28,7 +28,7 @@ for (int i = 0; i < dataContext.getDataCount(); i++) {
     bool = true;
 
     // Increment value by 1
-    intValue = intValue + Integer.parseInt(ExecutionUtil.getDynamicProcessProperty('dpp counter increment'));
+    intValue = intValue + Integer.parseInt(ExecutionUtil.getDynamicProcessProperty('DDP_Count'));
 
     // Convert int value back to String
     propValue = Integer.toString(intValue);
